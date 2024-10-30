@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.banner img{
+    height: 558px;
+    object-fit: cover;
+}
+
+
+/* .section2 img{
+    width: 100vw;
+
+} */
