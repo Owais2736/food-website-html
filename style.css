@@ -10,7 +10,20 @@
 }
 
 
-/* .section2 img{
-    width: 100vw;
-
-} */
+@media (min-width: 1926px) {
+    .cards {
+        max-width: 600px; /* Reduce max width slightly if needed */
+    }
+    .cards .text-large {
+        font-size: 1.5vw;
+    }
+    .cards .text-medium {
+        font-size: 1vw;
+    }
+    .cards .text-small {
+        font-size: 0.8vw;
+    }
+    .cards .padded {
+        padding: 1vw;
+    }
+}
