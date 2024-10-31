@@ -12,7 +12,7 @@
 
 @media (min-width: 1926px) {
     .cards {
-        max-width: 600px; /* Reduce max width slightly if needed */
+        max-width: 600px; 
     }
     .cards .text-large {
         font-size: 1.5vw;
