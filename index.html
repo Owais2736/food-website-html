@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="./src/output.css" rel="stylesheet">
 </head>
@@ -13,21 +15,27 @@
 
 
     <header class="w-full screen relative z-20">
-        <div class=" left flex justify-between items-center mr-24 text-[white] ml-16 m-2 ">
-            <div class="logo">
+        <div class=" left flex justify-between  items-center  text-[white]  m-2 ">
+            <div class="logo ml-16">
                 <img src="./images/bannerImages/logo.png" alt="">
             </div>
 
-            <div class="lg:flex gap-12 2xl:text-[20px]  hidden 4xl:text-[25px]">
+            <ul class="lg:flex gap-12 2xl:text-[20px]  list-none hidden 4xl:text-[25px]">
 
-                <div>ABOUT US</div>
-                <div>FOOD</div>
-                <div>BEVERAGES</div>
-                <div>LIFESTYLE</div>
-            </div>
+                <li class="hover:font-bold"><a class=" text-[white] no-underline  hover:text-[white]" href="#"> ABOUT US
+                    </a></li>
+                <li class="hover:font-bold"><a class=" text-[white] no-underline hover:text-[white] " href="#"> FOOD
+                    </a></li>
+                <li class="hover:font-bold"><a class=" text-[white] no-underline hover:text-[white] " href="#">
+                        BEVERAGES </a></li>
+                <li class="hover:font-bold"><a class=" text-[white] no-underline hover:text-[white] " href="#">
+                        LIFESTYLE </a></li>
+            </ul>
 
 
-            <button class="2xl:text-[20px] 4xl:text-[25px]">MY CART</button>
+            <button
+                class="2xl:text-[20px] 4xl:text-[25px] mr-16 border-[#E1724C] border-2 rounded-[60px] w-[120px] hover:font-bold h-[40px]">MY
+                CART</button>
         </div>
     </header>
 
@@ -41,29 +49,32 @@
 
 
 
-            <div class="flex w-screen ml-[-140px] justify-center absolute z-20 top-[130px] items-center">
+            <div class="flex w-screen ml-[-140px] justify-center absolute z-20 3xl:top-[80px] top-[130px] items-center">
 
-                <div class="w-[400.65px] 2xl:w-[450px] relative left-40 top-[-55px]  h-[135.32px] rounded-[145px] bg-[#DCB33E]">
+                <div
+                    class="w-[400.65px] 2xl:w-[450px] relative left-40  top-[-55px]  h-[135.32px] rounded-[145px] bg-[#DCB33E]">
 
                     <p
-                        class="w-[250.55px] h-[79px] text-[white] mt-5 ml-12 text-[14px] 2xl:text-[17px] 2xl:leading-5 text-center 2xl:w-[280px] font-Inter font-semibold leading-[16.94px]">
+                        class="w-[250.55px] h-[79px]  text-[white] mt-4 ml-12 text-[14px]  2xl:text-[17px] 2xl:leading-5 text-center 2xl:w-[280px] font-Inter font-semibold leading-[16.94px]">
                         With a deep-rooted love for all things seafood, our talented chefs combine culinary expertise
                         with creativity to craft dishes that celebrate the ocean's treasures.</p>
 
                 </div>
 
-                <div class="ml-[-100px]  z-20">
-                    <img class="w-[802px] 2xl:w-[900px] 3xl:w-[950px] h-[802px]" src="./images/bannerImages/middle.png" alt="">
+                <div class="animation ml-[-100px]  z-20">
+                    <img class="animation w-[802px] 2xl:w-[900px] 3xl:w-[950px] h-[802px]"
+                        src="./images/bannerImages/middle.png" alt="">
                 </div>
             </div>
 
-            <div class="w-screen ml-8 absolute z-30 top-[400px] h-[145px] font-Ginger font-normal leading-[144.64px]">
+            <div
+                class="w-screen ml-8 absolute z-30 top-[400px] 2xl:mt-6 xl:mt-5 lg:mt-6 3xl:mt-[-10px] h-[145px] font-Ginger font-normal  leading-[144.64px]">
                 <p class="w-full text-[8vw]  whitespace-nowrap text-white">Gourmet, Lifestyle & More</p>
             </div>
         </section>
 
 
-        <section class="section1 absolute top-[700px]">
+        <section class="section1 relative top-[600px]">
             <div class="flex justify-center items-center flex-col gap-20 w-screen">
 
                 <div class="w-[686.19px] ml-[-400px] h-[91.94px] text-[#151515]">
@@ -76,12 +87,14 @@
 
                 <div class="flex gap-8 justify-center items-center ">
 
-                    <div class="w-[117.61px] 2xl:w-[160px] 3xl:w-[170px] 3xl:h-[180px] 2xl:h-[140px] h-[117.61px] rounded-[79.3px] ">
+                    <div
+                        class="w-[117.61px] 2xl:w-[160px] 3xl:w-[170px] 3xl:h-[180px] 2xl:h-[140px] h-[117.61px] rounded-[79.3px] ">
                         <img src="./images/section1/logo.png" alt="">
                     </div>
 
                     <div class="w-[415.73px] 2xl:w-[460px] 2xl:h-[140px] h-[100px] 3xl:w-[500px] 3xl:h-[180px]">
-                        <p class="font-Inter font-normal text-[12px] 2xl:text-[16px] 3xl:text-[20px] leading-5 text-[#797979]">
+                        <p
+                            class="font-Inter font-normal text-[12px] 2xl:text-[16px] 3xl:text-[20px] leading-5 text-[#797979]">
                             Indulge your senses and elevate your lifestyle with our curated collection of gourmet
                             delights and luxurious lifestyle essentials. At Gourmet, Lifestyle & More, we believe in the
                             art of savoring life's finest moments, and we've brought together a selection that embodies
@@ -99,13 +112,13 @@
         </section>
 
         <section class="w-screen section2">
-            <div class="flex w-full absolute gap-4 top-[1087px] left-0">
-                
+            <div class="flex w-full relative gap-4 top-[687px] left-0">
+
                 <div class="w-1/2 ml-4 h-[545.7px]">
                     <img class="w-full h-full object-cover" src="./images/section2/1st.png" alt="">
                 </div>
 
-            
+
                 <div class="row flex flex-col w-1/2 gap-4">
                     <div class="flex gap-3">
                         <div class="w-1/12 mt-14 h-[160.44px]">
@@ -126,15 +139,17 @@
                             </div>
 
                             <div class="w-full h-[80px]">
-                                <p class="font-Inter font-normal text-[12px] 2xl:text-[16px]  2xl:leading-5 3xl:text-[19px] 3xl:w-[500px] 3xl:leading-6 ml-5 w-5/6 text-[#797979]">
+                                <p
+                                    class="font-Inter font-normal text-[12px] 2xl:text-[16px] mt-[-20px] 2xl:leading-5 3xl:text-[19px] 3xl:w-[500px] 3xl:leading-6 ml-5 w-5/6 text-[#797979]">
                                     Indulge your senses and elevate your lifestyle with our curated collection of
                                     gourmet delights and luxurious lifestyle essentials. At Gourmet, Lifestyle & More
                                 </p>
                             </div>
 
-                            <div class="w-[111.07px] 2xl:w-[160px] 3xl:w-[200px] 4xl:w-[240px] ml-20 h-[46px] border-2 rounded-[60px] border-[#E1724C]">
+                            <div
+                                class="w-[111.07px] mt-[-40px]  2xl:w-[160px] 3xl:w-[200px] 4xl:w-[240px] ml-20 h-[46px] border-2 rounded-[60px] border-[#E1724C]">
                                 <button
-                                    class="w-full h-full font-Inter font-normal text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] leading-[16.34px] tracking-wider text-[#000000]">ORDER
+                                    class="w-full h-full font-Inter hover:font-bold font-normal text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] leading-[16.34px] tracking-wider text-[#000000]">ORDER
                                     NOW</button>
                             </div>
                         </div>
@@ -147,13 +162,14 @@
                 </div>
             </div>
 
-            <div class="w-screen absolute top-[1750px] flex flex-col gap-7 items-center justify-center">
+            <div class="w-screen relative top-[750px] flex flex-col gap-7 items-center justify-center">
                 <div class="w-[46.73px] h-[46.73px] 2xl:w-[80px] ">
                     <img class="w-full h-full object-cover" src="./images/section2/knife-icon 1.png" alt="">
                 </div>
 
                 <div class="w-[980px] h-[91.94px] 2xl:w-[1200px] 4xl:w-[1400px]">
-                    <h2 class="font-Ginger font-normal text-[50px] 4xl:text-[70px] 2xl:text-[60px] leading-[74.58px] items-center text-[#151515]">
+                    <h2
+                        class="font-Ginger font-normal text-[50px] 4xl:text-[70px] 2xl:text-[60px] leading-[74.58px] items-center text-[#151515]">
                         A Place Where Food, Design, And Ambiance <br> &nbsp; Come Together To Create A Memorable <br>
                         <span class="ml-[370px]"> Experience.</span>
                     </h2>
@@ -164,174 +180,347 @@
         </section>
 
 
-        <section class="absolute z-20 top-[2050px] section3">
+        <section class="relative z-20 top-[850px] section3">
             <div class="w-screen flex gap-4 justify-center">
-                
-                <div class="cards  w-[80vw] max-w-[700px] min-w-[300px] h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
-                    <div class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
+
+                <div
+                    class="cards  w-[80vw] max-w-[700px] min-w-[300px] h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
+                    <div
+                        class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
                         Weekly
                     </div>
-                    <div class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
+                    <div
+                        class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
                         <p>Weekly delivery of chef-designed recipes and premium ingredients.</p>
                         <p>Fresh, top-quality items sourced from the best suppliers.</p>
                         <p>Exclusive access to seasonal and limited edition items.</p>
                     </div>
                     <div class="mt-10 w-[60%] h-auto bg-[#E1724C] flex justify-center items-center py-3 rounded">
-                        <button class="font-Inter font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
+                        <button
+                            class="font-Inter hover:font-bold font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
                             SUBSCRIBE NOW
                         </button>
                     </div>
-                    <div class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
+                    <div
+                        class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
                         MORE DETAIL
                     </div>
                 </div>
-        
-                
-                <div class="cards w-[80vw] max-w-[700px]  min-w-[300px] mt-16 h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
-                    <div class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
+
+
+                <div
+                    class="cards w-[80vw] max-w-[700px]  min-w-[300px] mt-16 h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
+                    <div
+                        class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
                         Monthly
                     </div>
-                    <div class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
+                    <div
+                        class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
                         <p>Monthly delivery of chef-designed recipes and premium ingredients.</p>
                         <p>Fresh, top-quality items sourced from the best suppliers.</p>
                         <p>Exclusive access to seasonal and limited edition items.</p>
                     </div>
                     <div class="mt-10 w-[60%] h-auto bg-[#E1724C] flex justify-center items-center py-3 rounded">
-                        <button class="font-Inter font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
+                        <button
+                            class="font-Inter hover:font-bold font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
                             SUBSCRIBE NOW
                         </button>
                     </div>
-                    <div class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
+                    <div
+                        class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
                         MORE DETAIL
                     </div>
                 </div>
-        
 
 
-                <div class="cards w-[80vw] max-w-[700px] min-w-[300px] h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
-                    <div class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
+
+                <div
+                    class="cards w-[80vw] max-w-[700px] min-w-[300px] h-auto  border-2 border-[#DCB33E] bg-[#FFFFFF] flex flex-col items-center p-5 padded">
+                    <div
+                        class="w-full text-center font-Ginger font-normal text-[5vw] lg:text-[3vw] xl:text-[2vw] text-large text-[#151515] mt-5 mb-5">
                         Customized
                     </div>
-                    <div class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
+                    <div
+                        class="w-full text-center font-Inter font-normal text-[3vw] lg:text-[1.5vw] xl:text-[1vw] leading-relaxed text-medium text-[#151515]">
                         <p>Customized delivery of chef-designed recipes and premium ingredients.</p>
                         <p>Fresh, top-quality items sourced from the best suppliers.</p>
                         <p>Exclusive access to seasonal and limited edition items.</p>
                     </div>
                     <div class="mt-10 w-[60%] h-auto bg-[#E1724C] flex justify-center items-center py-3 rounded">
-                        <button class="font-Inter font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
+                        <button
+                            class="font-Inter hover:font-bold font-medium text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] text-small text-[#FFFFFF]">
                             SUBSCRIBE NOW
                         </button>
                     </div>
-                    <div class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
+                    <div
+                        class="mt-2 text-[2.5vw] lg:text-[1.5vw] xl:text-[1vw] font-Inter font-bold text-small text-[#000000] hover:underline cursor-pointer">
                         MORE DETAIL
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="absolute top-[2270px] 4xl:h-[600px] z-0 w-screen h-[400.75px] bg-[#BEDACE]">
+        <div class="relative top-[670px] 4xl:h-[500px] z-0 w-screen h-[400.75px] bg-[#BEDACE]">
         </div>
 
-        <div class="absolute top-[2500px] 4xl:top-[2600px] 5xl:top-[2730px] z-10 w-screen h-[557px] text-[#FFDAD0]">
-            <img width="100%" class="2xl:h-[500px]" src="./images/section2/Stories.png" alt="">
+        <div
+            class="relative top-[320px] 2xl:top-[290px] 4xl:top-[330px] 5xl:top-[480px] z-10 w-screen h-[557px] flex justify-center items-center text-[#FFDAD0] overflow-hidden">
+            <p class="w-full text-center font-Ginger font-normal text-[32vw] 5xl:text-[30vw]">Stories</p>
         </div>
 
-        <div class="w-full absolute z-20 h-[247.71px] 4xl:top-[2900px] 5xl:top-[3000px] top-[2750px] flex justify-center ">
-            <p class="font-Ginger w-full font-normal lg:text-[45px]  text-[50px] 2xl:text-[60px] leading-[58.58px] text-center">
+
+        <div class="w-full relative z-20 h-[247.71px] 4xl:top-[190px] 5xl:top-[300px] top-[140px] flex justify-center ">
+            <p
+                class="font-Ginger w-full font-normal lg:text-[45px]  text-[50px] 2xl:text-[60px] leading-[58.58px] text-center">
                 Indulge In Exquisite Tastes, Elevate Daily Rituals, <br> And Embrace Luxury. Experience Life's Finest
                 <br> Moments With Our Curated Collection Of <br><span class="ml-[-500px]">Lifestyle Essentials.</span>
             </p>
         </div>
 
 
-        <section class="section3 w-screen 4xl:top-[3100px] 5xl:top-[3200px] absolute top-[3070px]">
+        <section class="section3 w-screen 4xl:top-[200px] 5xl:top-[300px] relative top-[170px]">
 
-            <div class="w-screen 2xl:mt-[100px] ml-4 flex gap-5 ">
 
-                <div class="card1 flex flex-col justify-center items-center 4xl:h-[630px]  w-[47%] h-[560px] bg-[#E1724C]">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="w-screen 2xl:mt-[100px] ml-4 flex gap-5 ">
 
-                    <div class="w-[300px] 4xl:w-[500px] lg:ml-[-150px] 5xl:w-[700px] ml-[-250px] mt-12 h-[346px]">
-                        <img class="w-full h-full object-cover" src="./images/section3/left.png" alt="" srcset="">
+                            <div
+                                class="card1 flex flex-col justify-center items-center 4xl:h-[630px]  w-[47%] h-[560px] bg-[#E1724C]">
+
+                                <div
+                                    class="w-[300px] 4xl:w-[500px] lg:ml-[-150px] 5xl:w-[700px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/left.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-[-20px] font-Ginger font-normal 4xl:text-[50px] 4xl:w-[600px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] font-Inter ml-32 mt-[-15px] font-normal 3xl:text-[14px] 3xl:w-[400px] 4xl:text-[16px] 4xl:w-[450px] text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#FFFFFF]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="card2  flex flex-col mt-[-50px] justify-center items-center w-[47%] 4xl:h-[480px]  h-[420px] bg-[#DCB33E]">
+                                <div
+                                    class="w-[300px] 2xl:h-[346px] lg:ml-[-150px] 5xl:w-[700px] 4xl:w-[500px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/right.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-9 font-Ginger font-normal 4xl:text-[50px] 4xl:w-[550px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] absolute font-Inter lg:ml-4 ml-[-200px] mt-[600px] 3xl:text-[14px] 4xl:mt-[650px] 4xl:text-[16px] 4xl:w-[450px] 3xl:w-[400px] font-normal text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#000000]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
-                    <div
-                        class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-[-20px] font-Ginger font-normal 4xl:text-[50px] 4xl:w-[600px] text-[40px] leading-[38px]">
-                        <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your lifestyle</p>
-                    </div>
-                    <div class="w-[350px] h-[120px] font-Inter ml-32 mt-[-15px] font-normal 3xl:text-[14px] 3xl:w-[400px] 4xl:text-[16px] 4xl:w-[450px] text-[12px] leading-5">
-                        <p class="w-full h-full text-[#FFFFFF]"> Indulge your senses and elevate your lifestyle with our
-                            curated collection of gourmet delights and luxurious lifestyle essentials. At Gourmet,
-                            Lifestyle & More, we believe in the art of savoring life's finest moments, and we've brought
-                            together a selection that embodies the epitome of taste, style, and sophistication.</p>
-                    </div>
+                    <div class="carousel-item">
+                        <div class="w-screen 2xl:mt-[100px] ml-4 flex gap-5 ">
 
+                            <div
+                                class="card1 flex flex-col justify-center items-center 4xl:h-[630px]  w-[47%] h-[560px] bg-[#E1724C]">
+
+                                <div
+                                    class="w-[300px] 4xl:w-[500px] lg:ml-[-150px] 5xl:w-[700px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/left.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-[-20px] font-Ginger font-normal 4xl:text-[50px] 4xl:w-[600px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] font-Inter ml-32 mt-[-15px] font-normal 3xl:text-[14px] 3xl:w-[400px] 4xl:text-[16px] 4xl:w-[450px] text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#FFFFFF]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="card2  flex flex-col mt-[-50px] justify-center items-center w-[47%] 4xl:h-[480px]  h-[420px] bg-[#DCB33E]">
+                                <div
+                                    class="w-[300px] 2xl:h-[346px] lg:ml-[-150px] 5xl:w-[700px] 4xl:w-[500px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/right.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-9 font-Ginger font-normal 4xl:text-[50px] 4xl:w-[550px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] absolute font-Inter lg:ml-4 ml-[-200px] mt-[600px] 3xl:text-[14px] 4xl:mt-[650px] 4xl:text-[16px] 4xl:w-[450px] 3xl:w-[400px] font-normal text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#000000]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="w-screen 2xl:mt-[100px] ml-4 flex gap-5 ">
+
+                            <div
+                                class="card1 flex flex-col justify-center items-center 4xl:h-[630px]  w-[47%] h-[560px] bg-[#E1724C]">
+
+                                <div
+                                    class="w-[300px] 4xl:w-[500px] lg:ml-[-150px] 5xl:w-[700px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/left.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-[-20px] font-Ginger font-normal 4xl:text-[50px] 4xl:w-[600px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] font-Inter ml-32 mt-[-15px] font-normal 3xl:text-[14px] 3xl:w-[400px] 4xl:text-[16px] 4xl:w-[450px] text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#FFFFFF]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+
+                            <div
+                                class="card2  flex flex-col mt-[-50px] justify-center items-center w-[47%] 4xl:h-[480px]  h-[420px] bg-[#DCB33E]">
+                                <div
+                                    class="w-[300px] 2xl:h-[346px] lg:ml-[-150px] 5xl:w-[700px] 4xl:w-[500px] ml-[-250px] mt-12 h-[346px]">
+                                    <img class="w-full h-full object-cover" src="./images/section3/right.png" alt=""
+                                        srcset="">
+                                </div>
+                                <div
+                                    class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-9 font-Ginger font-normal 4xl:text-[50px] 4xl:w-[550px] text-[40px] leading-[38px]">
+                                    <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your
+                                        lifestyle</p>
+                                </div>
+                                <div
+                                    class="w-[350px] h-[120px] absolute font-Inter lg:ml-4 ml-[-200px] mt-[600px] 3xl:text-[14px] 4xl:mt-[650px] 4xl:text-[16px] 4xl:w-[450px] 3xl:w-[400px] font-normal text-[12px] leading-5">
+                                    <p class="w-full h-full text-[#000000]"> Indulge your senses and elevate your
+                                        lifestyle with our
+                                        curated collection of gourmet delights and luxurious lifestyle essentials. At
+                                        Gourmet,
+                                        Lifestyle & More, we believe in the art of savoring life's finest moments, and
+                                        we've brought
+                                        together a selection that embodies the epitome of taste, style, and
+                                        sophistication.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-
-
-
-
-                <div class="card2  flex flex-col mt-[-50px] justify-center items-center w-[47%] 4xl:h-[480px]  h-[420px] bg-[#DCB33E]">
-                    <div class="w-[300px] 2xl:h-[346px] lg:ml-[-150px] 5xl:w-[700px] 4xl:w-[500px] ml-[-250px] mt-12 h-[346px]">
-                        <img class="w-full h-full object-cover" src="./images/section3/right.png" alt="" srcset="">
-                    </div>
-                    <div
-                        class="w-[440px] h-[120px] relative z-10 mt-[-45px] ml-9 font-Ginger font-normal 4xl:text-[50px] 4xl:w-[550px] text-[40px] leading-[38px]">
-                        <p class=" w-full h-full text-[#FFFFFF]">Indulge your senses and <br> elevate your lifestyle</p>
-                    </div>
-                    <div
-                        class="w-[350px] h-[120px] absolute font-Inter lg:ml-4 ml-[-200px] mt-[600px] 3xl:text-[14px] 4xl:mt-[650px] 4xl:text-[16px] 4xl:w-[450px] 3xl:w-[400px] font-normal text-[12px] leading-5">
-                        <p class="w-full h-full text-[#000000]"> Indulge your senses and elevate your lifestyle with our
-                            curated collection of gourmet delights and luxurious lifestyle essentials. At Gourmet,
-                            Lifestyle & More, we believe in the art of savoring life's finest moments, and we've brought
-                            together a selection that embodies the epitome of taste, style, and sophistication.</p>
-                    </div>
-
-                </div>
             </div>
 
 
 
-            <div class="flex justify-center absolute z-10 mt-5 items-center w-screen  gap-11">
-                <div class="w-[750.33px] 3xl:w-[850px] 4xl:w-[950px] 5xl:w-[1100px] h-[2.38px] bg-[#BFBFBF] text-[#BFBFBF] ">
+            <div class="flex justify-center relative z-10 mt-5 items-center w-screen  gap-11">
+                <div
+                    class="w-[750.33px] 3xl:w-[850px] 4xl:w-[950px] 5xl:w-[1100px] h-[2.38px] bg-[#BFBFBF] text-[#BFBFBF] ">
                     <hr class="w-full h-full object-cover">
                 </div>
 
+
                 <div class="w-[90px] h-64.91px 3xl:w-[130px] 4xl:w-[150px] 5xl:w-[160px] ">
-                    <img class="w-full h-full object-cover" src="./images/section3/leftArrow.png" alt="">
+                    <button class="" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="" aria-hidden="true"><img class="w-full h-full object-cover"
+                                src="./images/section3/leftArrow.png" alt=""></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
                 </div>
                 <div class="w-[90px] h-64.91px 3xl:w-[130px] 4xl:w-[150px] 5xl:w-[160px] ">
-                    <img class="w-full h-full object-cover" src="./images/section3/rightArrow.png" alt="">
+                    <button class="" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="" aria-hidden="true"><img class="w-full h-full object-cover"
+                                src="./images/section3/rightArrow.png" alt=""></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
             </div>
         </section>
 
 
-        <section class="section4 absolute 2xl:top-[3900px] 4xl:top-[4000px] 5xl:top-[4100px] top-[3800px] w-screen">
+        <section class="section4 relative 2xl:top-[280px] 4xl:top-[310px] 5xl:top-[410px] top-[250px] w-screen">
 
             <div class="w-screen h-[1020.05px] bg-[#FFDAD0]">
 
                 <div class="w-screen">
-                    <img class="w-[90%] 2xl:h-[500px] absolute mt-[-150px]" src="./images/section4/media.png" alt="" srcset="">
+                    <img class="w-[90%] 2xl:h-[500px] absolute mt-[-150px]" src="./images/section4/media.png" alt=""
+                        srcset="">
                 </div>
 
                 <div class="w-screen pt-20 ml-[-90px] z-20 absolute h-[221.8px] ">
-                    <p class="w-full font-Ginger  font-normal 2xl:text-[90px] 3xl:text-[100px] text-[80px] leading-[75px] text-[#151515] text-center">
+                    <p
+                        class="w-full font-Ginger  font-normal 2xl:text-[90px] 3xl:text-[100px] text-[80px] leading-[75px] text-[#151515] text-center">
                         Your Podcast Gallery <br> for Inspiring Stories
                     </p>
                 </div>
 
 
                 <div class="w-screen pt-24 flex gap-7 justify-center">
-                    <div class="card1 mt-24 w-[397px] 2xl:w-[500px] 3xl:w-[650px] 4xl:w-[750px] 5xl:w-[850px] h-[383.78px] ">
+                    <div
+                        class="card1 mt-24 w-[397px] 2xl:w-[500px] 3xl:w-[650px] 4xl:w-[750px] 5xl:w-[850px] h-[383.78px] ">
                         <img class="w-full h-full object-cover" src="./images/section4/img1.png" alt="">
                     </div>
 
-                    <div class="card2 mt-[330px] ml-[-15px] w-[236.24px] 2xl:w-[330px] 3xl:w-[430px] 4xl:w-[530px] 5xl:w-[630px] h-[149.32px] ">
+                    <div
+                        class="card2 mt-[330px] ml-[-15px] w-[236.24px] 2xl:w-[330px] 3xl:w-[430px] 4xl:w-[530px] 5xl:w-[630px] h-[149.32px] ">
                         <img class="w-full h-full object-cover" src="./images/section4/img2.png" alt="">
                     </div>
 
-                    <div class="card3 w-[454.12px] 2xl:w-[550px] 3xl:w-[650px] 4xl:w-[750px] 5xl:w-[850px]  h-[520.78px] ">
+                    <div
+                        class="card3 w-[454.12px] 2xl:w-[550px] 3xl:w-[650px] 4xl:w-[750px] 5xl:w-[850px]  h-[520.78px] ">
                         <img class="w-full h-full object-cover" src="./images/section4/img3.png" alt="">
                     </div>
 
@@ -360,9 +549,9 @@
                         </div>
 
                         <div
-                            class="w-[137.51px] h-[46.91px]  2xl:w-[160px] 3xl:w-[200px] 4xl:w-[240px] ml-[-40px] mt-5 rounded-[60px] text-[#000000] border-2 border-[#E1724C]">
+                            class="w-[137.51px] h-[46.91px]  2xl:w-[160px] 3xl:w-[200px] 4xl:w-[240px] ml-[-40px] mt-1 rounded-[60px] text-[#000000] border-2 border-[#E1724C]">
                             <button
-                                class="w-[130px] 3xl:w-[140px] 3xl:ml-5 4xl:ml-10 h-[15px] font-Inter 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] font-bold leading-[14.52px] pl-[7px] pt-3 tracking-wider ">
+                                class="w-[130px] 3xl:w-[140px] 2xl:ml-[10px] 2xl:mt-[-2px] 3xl:ml-7 3xl:mt-0 4xl:ml-12 4xl:mt-[-2px] h-[15px] font-Inter 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] font-normal hover:font-bold leading-[14.52px] pl-[7px] pt-[15px] tracking-wider ">
                                 JOIN TODAY</button>
                         </div>
 
@@ -374,7 +563,7 @@
 
 
 
-        <section class="section5 absolute w-screen top-[4900px] 4xl:top-[5100px] 5xl:top-[5200px]">
+        <section class="section5 relative w-screen top-[350px] 4xl:top-[400px] 5xl:top-[500px]">
 
             <div class="w-screen h-[247.71px] text-center ">
                 <p
@@ -387,14 +576,16 @@
             <div class="flex gap-5 justify-center items-center">
 
                 <div class="w-[322.61px] 2xl:w-[390px]  3xl:w-[450px] h-[159.34px] ">
-                    <p class="w-full h-full object-cover font-Inter font-normal 2xl:text-[18px] 3xl:text-[20px] text-[12px] leading-5 text-[#000000]">
+                    <p
+                        class="w-full h-full object-cover font-Inter font-normal 2xl:text-[18px] 3xl:text-[20px] text-[12px] leading-5 text-[#000000]">
                         Subscribe for a daily blend of insights and entertainment. Dive into captivating stories, stay
                         ahead with breaking news, and elevate your lifestyle – because informed living is empower
                     </p>
                 </div>
 
 
-                <div class="  w-[243px] mt-[-100px] h-[44.87px] 2xl:w-[290px] 2xl:h-[60px] 2xl:mt-[-85px]  text-[#000000] bg-[#F0F0F0] ">
+                <div
+                    class="  w-[243px] mt-[-100px] h-[44.87px] 2xl:w-[290px] 2xl:h-[60px] 2xl:mt-[-85px]  text-[#000000] bg-[#F0F0F0] ">
                     <input
                         class="  w-[200px] h-[15px] mt-[15px] ml-5   bg-[#F0F0F0] text-[#000000]  font-normal 2xl:mt-5 2xl:text-[18px] text-[12px] leading-[14.52px]"
                         type="text" placeholder="Email Address" />
@@ -409,7 +600,7 @@
 
 
 
-        <section class="section6 z-10 absolute w-screen top-[5300px] 4xl:top-[5600px] 5xl:top-[5700px]">
+        <section class="section6 z-10 relative w-screen top-[340px] 4xl:top-[400px] 5xl:top-[500px]">
 
             <div class="flex ml-[-7px] justify-center items-center gap-3 w-screen ">
 
@@ -441,65 +632,74 @@
     </main>
 
 
-        <footer class="absolute  w-screen top-[5550px] 4xl:top-[5800px] 5xl:top-[5900px] ">
-            <div class="w-screen h-[790px] bg-[#000000]">
+    <footer class="relative  w-screen top-[220px] 4xl:top-[250px] 5xl:top-[350px] ">
+        <div class="w-screen h-[790px] bg-[#000000]">
 
-                <div class="flex flex-col pt-44 justify-center items-center w-screen">
+            <div class="flex flex-col pt-44 justify-center items-center w-screen">
 
-                    <div class="w-[160px] h-[96px] ">
-                        <img class="w-full h-full object-cover" src="./images/bannerImages/logo.png" alt="" srcset="">
-                    </div>
+                <div class="w-[160px] h-[96px] ">
+                    <img class="w-full h-full object-cover" src="./images/bannerImages/logo.png" alt="" srcset="">
+                </div>
 
-                    <div class="w-[322.61px] 2xl:mb-8 h-[61px] ">
+                <div class="w-[322.61px] 2xl:mb-8 h-[61px] ">
 
-                        <p
-                            class="w-full h-full font-Inter font-normal text-[20px] 2xl:text-[25px] 2xl:leading-9  leading-7 text-center text-[#FFFFFF]">
-                            062 791 31 51 <br>email@domain.com
-                            <br> locations Al 17, 4663 Dubai
-                        </p>
-                    </div>
+                    <p
+                        class="w-full h-full font-Inter font-normal text-[20px] 2xl:text-[25px] 2xl:leading-9  leading-7 text-center text-[#FFFFFF]">
+                        062 791 31 51 <br>email@domain.com
+                        <br> locations Al 17, 4663 Dubai
+                    </p>
+                </div>
 
-                    <div class="w-[631px] mt-14 h-[247.71px]  ">
-                        <p
-                            class="w-full h-full object-cover font-Ginger font-normal text-[80px] leading-[77.4px] text-center text-[#FFFFFF]">
-                            Nourishing <br>Minds, Inspiring <br> Lives
-                        </p>
-
-                    </div>
-
-                    <div class="w-[967.33px] mt-14 h-[2.38px] ">
-                        <hr class="w-full h-full object-cover text-[#BFBFBF] bg-[#BFBFBF] opacity-[40%]">
-
-                    </div>
-
-                    <div class="flex gap-[40px]  mt-8 justify-center items-center w-[496px] h-[17px] ">
-                        <div class="w-[102px] 2xl:w-[130px] h-[17px] ">
-                            <a class="font-Inter font-normal text-[14px] 2xl:text-[18px]   leading-4 text-[#FFFFFF] tracking-wider"
-                                href="#">ABOUT US </a>
-                        </div>
-
-                        <div class="w-[102px] h-[17px] ">
-                            <a class="font-Inter font-normal text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
-                                href="#">FOODS </a>
-                        </div>
-                        <div class="w-[102px] h-[17px] ">
-                            <a class="font-Inter font-normal text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
-                                href="#">BEVERAGES </a>
-                        </div>
-                        <div class="w-[102px] h-[17px] ">
-                            <a class="font-Inter font-normal text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
-                                href="#">LIFESTYLES</a>
-                        </div>
-
-                    </div>
-
+                <div class="w-[631px] mt-14 h-[247.71px]  ">
+                    <p
+                        class="w-full h-full object-cover font-Ginger font-normal text-[80px] leading-[77.4px] text-center text-[#FFFFFF]">
+                        Nourishing <br>Minds, Inspiring <br> Lives
+                    </p>
 
                 </div>
 
-            </div>
-        </footer>
+                <div class="w-[967.33px] mt-14 h-[2.38px] ">
+                    <hr class="w-full h-full object-cover text-[#BFBFBF] bg-[#BFBFBF] opacity-[40%]">
 
-    
+                </div>
+
+                <div class="flex gap-[40px]  mt-8 justify-center items-center w-[496px] h-[17px] ">
+                    <div class="w-[102px] 2xl:w-[130px] h-[17px] ">
+                        <a class="font-Inter no-underline hover:font-bold hover:text-[white] hover:underline font-normal text-[14px] 2xl:text-[18px]   leading-4 text-[#FFFFFF] tracking-wider"
+                            href="#">ABOUT US </a>
+                    </div>
+
+                    <div class="w-[102px] h-[17px] ">
+                        <a class="font-Inter no-underline hover:font-bold hover:text-[white] hover:underline font-normal text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
+                            href="#">FOODS </a>
+                    </div>
+                    <div class="w-[102px] h-[17px] ">
+                        <a class="font-Inter no-underline hover:font-bold hover:text-[white] hover:underline font-normal text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
+                            href="#">BEVERAGES </a>
+                    </div>
+                    <div class="w-[102px] h-[17px] ">
+                        <a class="font-Inter font-normal no-underline hover:font-bold hover:text-[white] hover:underline text-[14px] 2xl:text-[18px]  leading-4 text-[#FFFFFF] tracking-wider"
+                            href="#">LIFESTYLES</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
